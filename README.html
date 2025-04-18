@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xplo8E Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; /* Default font */
+            background-color: #202020; /* Example background, adjust as needed */
+            color: #e0e0e0; /* Default text color */
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px; /* Adjust max width as needed */
+            margin: 20px auto; /* Center the container */
+            padding: 20px;
+        }
+        .center-align {
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 25px;
+            display: block; /* Needed for margin auto centering */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .name-heading { /* Styles for the main H3 heading */
+            text-align: center;
+            margin-bottom: 0; /* Reduce space below name heading */
+            font-size: 2em; /* Example size */
+        }
+        .subtitle {
+            font-family: 'Share Tech Mono', monospace;
+            color: #a0a0a0;
+            font-size: 1.1em;
+            margin-top: -0.5em;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .tagline {
+            margin-top: 1em;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1em;
+            color: #e0e0e0;
+            text-align: center;
+        }
+        .tagline i { /* Style the italic part */
+            font-style: italic;
+        }
+        .description {
+            text-align: center;
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+        }
+        .social-links a img {
+            height: 30px;
+            width: 40px; /* Maintain aspect ratio if needed, or set fixed width */
+            margin: 0 10px; /* Add spacing between icons */
+            vertical-align: middle; /* Align icons nicely */
+            filter: invert(90%) sepia(10%) saturate(100%) hue-rotate(180deg) brightness(100%) contrast(90%); /* Simple way to make SVG icons white/light grey */
+        }
+        .social-links {
+             text-align: center;
+             margin-bottom: 1.5em;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #505050; /* Line color */
+            margin: 2em 0; /* Spacing around the horizontal rule */
+        }
+
+        /* Styles for the H4 section titles */
+        h4 {
+            font-size: 1.3em;  /* Increased size for better visibility */
+            color: #e5e5e5;  /* Slightly distinct color */
+            margin-top: 2em;   /* More space above */
+            margin-bottom: 0.8em; /* More space below */
+            font-weight: bold; /* Ensure boldness */
+        }
+
+        ul {
+            list-style: none; /* Remove default bullets */
+            padding-left: 0; /* Remove default padding */
+        }
+
+        ul li {
+            margin-bottom: 0.8em; /* Spacing between list items */
+        }
+
+        ul li .emoji { /* Style for emojis */
+            display: inline-block;
+            width: 25px; /* Space for emoji */
+            text-align: center;
+            margin-right: 8px;
+        }
+        /* Style for the strong text within list items */
+        ul li strong {
+            font-weight: bold;
+            color: #ebebeb; /* Slightly emphasize the bold text */
+        }
+
+        .github-stats {
+            display: block; /* Make image a block element */
+            margin: 2em auto; /* Center block element and add spacing */
+            max-width: 100%; /* Ensure it's responsive */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <p class="center-align">
+            <img src="xplo8e.jpeg" alt="Xplo8E Logo/Profile Pic" class="profile-pic"/>
+        </p>
+
+        <h3 class="name-heading">Xplo8E</h3>
+        <p class="subtitle">
+            // Vinay Kumar Rasala
+        </p>
+        <p class="tagline">
+            <i>Exploring digital boundaries & occasionally breaking things.</i>
+        </p>
+
+        <p class="description">
+            Security research meets endless curiosity. Currently navigating the worlds of mobile (iOS/Android) & web app sec.
+        </p>
+
+        <p class="social-links">
+            <a href="https://x.com/xplo8e" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Twitter Profile" /></a>
+            <a href="https://www.linkedin.com/in/vinaykumarrasala" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn Profile" /></a>
+        </p>
+
+        <hr>
+
+        <h4>Currently Diving Into:</h4>
+        <ul>
+            <li><span class="emoji">📱</span> <strong>Tinkering with iOS Tweaks & Theos:</strong> Getting hands dirty with Theos, Objective-C, Logos, and C.</li>
+            <li><span class="emoji">🧠</span> <strong>Emerging Tech:</strong> Tinkering with AI or whatever new shiny thing catches my eye.</li>
+            <li><span class="emoji">🍚</span> <strong>Ricing:</strong> Making things look cool (results may vary, still learning).</li>
+            <li><span class="emoji">🔧</span> <strong>Problem Solving:</strong> Finding solutions for things perhaps only my lazy ass needs.</li>
+        </ul>
+
+        <hr>
+
+        <h4>Offline Mode:</h4>
+        <ul>
+            <li>Casual travels through Teyvat (Genshin Impact).</li>
+            <li>Exploring history & spiritual texts.</li>
+        </ul>
+
+        <p class="center-align">
+            <img src="https://github-readme-stats.vercel.app/api?username=xplo8e&show_icons=true&theme=swift&rank_icon=github" alt="Xplo8E GitHub Stats" class="github-stats" />
+        </p>
+
+    </div>
+</body>
+</html>
