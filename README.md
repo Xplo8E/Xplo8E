@@ -1,7 +1,3 @@
-> The wheel of fortune turns ever; when good arrives, expect the bad, and when bad strikes, await the good.
-
----
-
 Security researcher who got too curious about how things break.
 
 I reverse engineer mobile apps - iOS and Android, Frida scripts, digging into how things work under the hood. CTFs when they look interesting.
