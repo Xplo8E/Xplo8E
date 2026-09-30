@@ -1,6 +1,6 @@
 <div align="center">
 
-# Xplo8E
+# Vinay Kumar Rasala (Xplo8E)
 
 Security researcher · Reverse engineer · Learner
 
